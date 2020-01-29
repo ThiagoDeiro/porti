@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css?family=Catamaran:400,700,800,900&display=swap');
+
+@fontface {
+    font-family: 'Yantramanav', sans-serif;
+    src: url('https://fonts.googleapis.com/css?family=Yantramanav&display=swap');
+  }
+* ,
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;   
+}
+
+.headerWrapper{
+    font-family: 'Yantramanav', sans-serif;
+    /* font-size: 16px; */
+    line-height: 1.7;
+    color: #777;
+    padding: 3rem;
+    box-sizing: border-box;
+    height: 100vh;
+    width: 100vh;
+}
+
+.header{
+    height: 100%;
+    width: 100%;
+}
+
+.textBox{
+    font-size: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    backface-visibility: hidden; 
+}
+
+.header-name{
+    font-family: 'Yantramanav', sans-serif;
+    display: block;
+    font-size: 105px;
+    font-weight: 800;
+    letter-spacing: .2rem;
+    background: url('../../Images/title2.jpg');
+    background-size: 100% 100%;
+    color:transparent;  
+    -webkit-background-clip:text;
+    animation-name: moveInRight;
+    animation-duration: 2.5s;
+    animation-timing-function: ease-out;
+   
+}
+
+.header-text{
+    font-family: 'Yantramanav', sans-serif;
+    font-size: 32px;
+    /* font-weight: 400; */
+    display: block;
+    font-weight: 600;
+    letter-spacing: .2rem;
+    text-align: justify;
+    opacity: 0.85;
+    margin-top: 1px;
+    padding-left: 20px;
+    color:white;
+    animation-name: moveInLeft;
+    animation-duration: 2.5s;
+    animation-timing-function: ease-out;
+}
+
+@keyframes moveInLeft{
+    /* where animation should start */
+    0%{
+        opacity: 0;
+        transform: translateX(-10rem);
+        /* x means the position that I want my animation to start! */
+    }
+
+    80%{
+        transform: translateX(1rem);
+    }
+    /* finish */
+    100%{
+        opacity: 1;
+        transform: translate(0);
+    }
+}
+
+@keyframes moveInRight{
+    0%{
+        opacity: 0;
+        transform: translateX(10rem);
+    }
+
+    80%{
+        transform: translateX(-1rem);
+    }
+
+    100%{
+        opacity: 1;
+        transform: translate(0);
+    }
+}
+
+
+@media only screen and (max-width: 400px) {
+    .header-name {
+        font-size: 75px;
+    }
+    .headerWrapper{
+        margin: 0 auto;
+    }
+    .header-text{
+        font-size: 25px;
+    }
+  }
+  
+  /* Tablet Styles */
+  @media only screen and (min-width: 401px) and (max-width: 960px) {
+    .header-name {
+        font-size: 65px;
+    }
+    .header-text{
+        font-size: 20px;
+    }
+  }
