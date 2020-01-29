@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/porti/static/css/main.740c0417.chunk.css",
-    "main.js": "/porti/static/js/main.b957438e.chunk.js",
-    "main.js.map": "/porti/static/js/main.b957438e.chunk.js.map",
+    "main.js": "/porti/static/js/main.872df898.chunk.js",
+    "main.js.map": "/porti/static/js/main.872df898.chunk.js.map",
     "runtime-main.js": "/porti/static/js/runtime-main.fa6ea951.js",
     "runtime-main.js.map": "/porti/static/js/runtime-main.fa6ea951.js.map",
     "static/js/2.5facd1e2.chunk.js": "/porti/static/js/2.5facd1e2.chunk.js",
     "static/js/2.5facd1e2.chunk.js.map": "/porti/static/js/2.5facd1e2.chunk.js.map",
     "index.html": "/porti/index.html",
-    "precache-manifest.1fd62d8072de08e4b0bf1a492425d2b5.js": "/porti/precache-manifest.1fd62d8072de08e4b0bf1a492425d2b5.js",
+    "precache-manifest.0533f39941ed23b05d8b27e73ae723f3.js": "/porti/precache-manifest.0533f39941ed23b05d8b27e73ae723f3.js",
     "service-worker.js": "/porti/service-worker.js",
     "static/css/main.740c0417.chunk.css.map": "/porti/static/css/main.740c0417.chunk.css.map",
     "static/js/2.5facd1e2.chunk.js.LICENSE": "/porti/static/js/2.5facd1e2.chunk.js.LICENSE",
@@ -23,6 +23,6 @@
     "static/js/runtime-main.fa6ea951.js",
     "static/js/2.5facd1e2.chunk.js",
     "static/css/main.740c0417.chunk.css",
-    "static/js/main.b957438e.chunk.js"
+    "static/js/main.872df898.chunk.js"
   ]
 }
