@@ -9,7 +9,7 @@ export default class Navegation extends React.Component{
         return(
             <div className="navBar">
                 <div className='menus'>
-                    <Link className='linkNav' to='/porti' style={{color:'white'}}>Home</Link>|
+                    <Link className='linkNav' to='/' style={{color:'white'}}>Home</Link>|
                     <Link className='linkNav' to='/About' style={{color:'white'}}>About</Link>|
                     <Link className='linkNav' to='/Projects' style={{color:'white'}}>Projects</Link>  
                 </div>
