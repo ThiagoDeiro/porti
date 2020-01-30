@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/porti/static/css/main.80fd4908.chunk.css",
+    "main.css": "/porti/static/css/main.921d4d5e.chunk.css",
     "main.js": "/porti/static/js/main.b8a787ef.chunk.js",
     "main.js.map": "/porti/static/js/main.b8a787ef.chunk.js.map",
     "runtime-main.js": "/porti/static/js/runtime-main.fa6ea951.js",
@@ -8,9 +8,9 @@
     "static/js/2.5facd1e2.chunk.js": "/porti/static/js/2.5facd1e2.chunk.js",
     "static/js/2.5facd1e2.chunk.js.map": "/porti/static/js/2.5facd1e2.chunk.js.map",
     "index.html": "/porti/index.html",
-    "precache-manifest.a1ffb14e5e9c56458aefe835ecd5fdf6.js": "/porti/precache-manifest.a1ffb14e5e9c56458aefe835ecd5fdf6.js",
+    "precache-manifest.89888f99cba427093f06ee6c6d0c9eb5.js": "/porti/precache-manifest.89888f99cba427093f06ee6c6d0c9eb5.js",
     "service-worker.js": "/porti/service-worker.js",
-    "static/css/main.80fd4908.chunk.css.map": "/porti/static/css/main.80fd4908.chunk.css.map",
+    "static/css/main.921d4d5e.chunk.css.map": "/porti/static/css/main.921d4d5e.chunk.css.map",
     "static/js/2.5facd1e2.chunk.js.LICENSE": "/porti/static/js/2.5facd1e2.chunk.js.LICENSE",
     "static/media/mealpicker.png": "/porti/static/media/mealpicker.2a6f37b2.png",
     "static/media/projectRuby.png": "/porti/static/media/projectRuby.f8d965e5.png",
@@ -22,7 +22,7 @@
   "entrypoints": [
     "static/js/runtime-main.fa6ea951.js",
     "static/js/2.5facd1e2.chunk.js",
-    "static/css/main.80fd4908.chunk.css",
+    "static/css/main.921d4d5e.chunk.css",
     "static/js/main.b8a787ef.chunk.js"
   ]
 }
