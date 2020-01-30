@@ -34,9 +34,6 @@ export default class Projects extends React.Component{
                 code:"https://github.com/ThiagoDeiro/gaseifx01-project01",
                 tech:"JavaScript,Jquery, CSS"
               }, 
-           
-            
-              
         ]
         }
     }
