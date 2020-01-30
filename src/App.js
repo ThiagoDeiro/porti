@@ -13,7 +13,7 @@ function App() {
       <Background/>
       <Navegation />
         <Router>
-          <Header path="/"/>
+          <Header path="/porti"/>
           <About path="/About"/>
           <Projects path="/Projects"/>
         </Router>
