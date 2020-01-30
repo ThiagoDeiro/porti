@@ -42,7 +42,7 @@ export default class Projects extends React.Component{
     }
     render(){
         const cards = this.state.projects.map(p => 
-            <div class="container">
+            <div class="card-container">
                 <div className="divPic">
                     <img src={p.photo}  className="image" />
                 </div>
