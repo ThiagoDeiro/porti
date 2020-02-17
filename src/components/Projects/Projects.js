@@ -16,7 +16,7 @@ export default class Projects extends React.Component{
               description: "Web App to search for your favourite movies",
               demo:"https://gaseifx02-project2.herokuapp.com/",
               code:"https://github.com/ThiagoDeiro/gaseifx02-project2",
-              tech:"Ruby on rails, CSS"
+              tech:"Ruby on rails, CSS, Bootstrap and MovieDB API"
             }, 
            {
               title: "Meal-Picker",
@@ -24,7 +24,7 @@ export default class Projects extends React.Component{
               description: "Spinn the wheal to find the best restaurents in Sydney",
               demo:"https://thiagodeiro.github.io/project-meal-picker/",
               code:"https://github.com/ThiagoDeiro/project-meal-picker",
-              tech:"React aplication with Rails Backend,CSS,Bootstrap"
+              tech:"React aplication with Rails Backend,CSS,Bootstrap and Zumato API"
             },
             {
                 title: "Todos",
@@ -33,6 +33,14 @@ export default class Projects extends React.Component{
                 demo:"https://thiagodeiro.github.io/gaseifx01-project01/",
                 code:"https://github.com/ThiagoDeiro/gaseifx01-project01",
                 tech:"JavaScript,Jquery, CSS"
+              }, 
+              {
+                title: "Mockedin",
+                photo: require('./../../Images/mockdim/project3.png'),
+                description: "Mock up version of LinkedIn, but with a little twist. It is supposed to be be used by people who want to update their LinkedIn profile, but they need some review from their HR/Career consultant first..",
+                demo:"https://mockedin.herokuapp.com/",
+                code:"https://github.com/gabrielcon6/project-3",
+                tech:"JavaScript/React for front-end, Node/Express.js for back-end,MongoDB/Mongoose for database,S3/AWS for photos upload,Heroku for deployment,GitHub for version control."
               }, 
         ]
         }
@@ -45,10 +53,16 @@ export default class Projects extends React.Component{
                 </div>
                 <div class="overlay">
                   <div class="text">{p.title}</div>
-                  <div class="ImgContent"><p>{p.description}<br/><span className="techName">{p.tech}</span></p></div>
-                  <div className="imgSocial">
-                    <a href={p.demo} class="ImgIcon" target="_blank" rel="noopener noreferrer"><FaLink></FaLink></a>
-                    <a href={p.code} class="ImgIcon" target="_blank" rel="noopener noreferrer"><FaCode></FaCode></a>
+                    <div class="ImgContent">
+                      <span>{p.description}<br/>
+                      <span>Tech stack: </span>
+                      <br/>
+                      <span className="techName">{p.tech}</span>
+                      </span>
+                    </div>
+                    <div className="imgSocial">
+                      <a href={p.demo} class="ImgIcon" target="_blank" rel="noopener noreferrer"><FaLink></FaLink></a>
+                      <a href={p.code} class="ImgIcon" target="_blank" rel="noopener noreferrer"><FaCode></FaCode></a>
                   </div>
                 </div>
              </div>)
