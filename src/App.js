@@ -1,5 +1,5 @@
 import React from 'react';
-import { Router, navigate, Redirect } from '@reach/router'
+import { Router } from '@reach/router'
 import Background from './components/Background/Background';
 import Navegation from './components/Navegation/Navegation';
 import Header from './components/Header/Header';
