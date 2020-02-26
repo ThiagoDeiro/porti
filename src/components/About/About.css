@@ -90,17 +90,17 @@
     filter: grayscale(100%);
 }
 @keyframes moveInLeft{
-    /* where animation should start */
+
     0%{
         opacity: 0;
         transform: translateX(-10rem);
-        /* x means the position that I want my animation to start! */
+      
     }
 
     80%{
         transform: translateX(1rem);
     }
-    /* finish */
+
     100%{
         opacity: 1;
         transform: translate(0);
@@ -131,7 +131,7 @@
         max-height: 300px;
         display: flex;
         justify-content: center;
-        align-items: center; /* Red */
+        align-items: center; 
     }
     .about-box{
         width: 100%;
@@ -165,7 +165,7 @@
     
   }
   
-  /* Tablet Styles */
+
   
   
   
