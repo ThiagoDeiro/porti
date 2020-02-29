@@ -4,10 +4,10 @@ export default class About extends React.Component{
     render(){
         return(
             <div className='aboutyWrapper'>
-            <header class="about-box">
+            <header className="about-box">
               <div className='about-textBox'>
               <div className='img-box'>
-                     <img alt='' class='user'></img>
+                     <img alt='' className='user'></img>
                 </div>
                 <h1 className="about-name">About me</h1>
                 <p className="about-text">I am a Junior Front-End Developer with a background in law and customer service. I came upon coding with a head full of inspiration, having seen my previous workplaces transformed by web-based technologies.
