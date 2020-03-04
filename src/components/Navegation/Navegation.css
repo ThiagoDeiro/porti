@@ -1,122 +1,111 @@
-.navBar{
-    display: flex;
-    justify-content: space-between;
-    position:fixed;
-    color: white;
-    width: 100%;
-    font-family: 'Yantramanav', sans-serif;
-    font-size: 25px;
-    /* margin-left: 30px; */
-    padding-top: 25px;
-    /* padding:30px; */
+.navBar {
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  color: white;
+  width: 100%;
+  font-family: "Yantramanav", sans-serif;
+  font-size: 25px;
+  /* margin-left: 30px; */
+  padding-top: 25px;
+  /* padding:30px; */
 }
 
-.menus{
+.menus {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.social {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.socialEle {
+  padding: 0 10px;
+  font-size: 40px;
+  margin-right: 10px;
+}
+
+.linkNav {
+  padding: 0 20px;
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 400px) {
+  .navBar {
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    color: white;
+    width: 50%;
+    font-family: "Yantramanav", sans-serif;
+    font-size: 15px;
+    /* margin-left: 30px; */
+    padding-top: 15px;
+    /* padding:30px; */
+  }
+
+  .menus {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    
-}
-.social{
-   display: flex;
-   flex-direction: row;
-   justify-content: space-between;
-    
-}
+  }
+  .social {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
 
- .socialEle{
-    padding: 0 10px;
-    font-size: 40px;
-    margin-right: 10px;
+  .socialEle {
+    padding: 0 8px;
+    font-size: 15px;
+    margin-right: 5px;
+  }
 
-}
-
-.linkNav{
-    padding: 0 20px;
+  .linkNav {
+    padding: 0 5px;
     text-decoration: none;
-} 
-
-
-@media only screen and (max-width: 400px) {
-    .navBar{
-        display: flex;
-        justify-content: space-between;
-        position:fixed;
-        color: white;
-        width: 50%;
-        font-family: 'Yantramanav', sans-serif;
-        font-size: 10px;
-        /* margin-left: 30px; */
-        padding-top: 15px;
-        /* padding:30px; */
-    }
-    
-    .menus{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        
-    }
-    .social{
-       display: flex;
-       flex-direction: row;
-       justify-content: space-between;
-        
-    }
-    
-     .socialEle{
-        padding: 0 8px;
-        font-size: 11px;
-        margin-right: 5px;
-    
-    }
-    
-    .linkNav{
-        padding: 0 5px;
-        text-decoration: none;
-    } 
   }
-  
-  /* Tablet Styles */
-  @media only screen and (min-width: 401px) and (max-width: 960px) {
-    .navBar{
-        display: flex;
-        justify-content: space-between;
-        position:fixed;
-        color: white;
-        width: 100%;
-        font-family: 'Yantramanav', sans-serif;
-        font-size: 20px;
-        /* margin-left: 30px; */
-        padding-top: 15px;
-        /* padding:30px; */
-    }
-    
-    .menus{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        
-    }
-    .social{
-       display: flex;
-       flex-direction: row;
-       justify-content: space-between;
-        
-    }
-    
-     .socialEle{
-        padding: 0 8px;
-        font-size: 20px;
-        margin-right: 5px;
-    
-    }
-    
-    .linkNav{
-        padding: 0 5px;
-        text-decoration: none;
-    } 
+}
+
+/* Tablet Styles */
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+  .navBar {
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    color: white;
+    width: 100%;
+    font-family: "Yantramanav", sans-serif;
+    font-size: 20px;
+    /* margin-left: 30px; */
+    padding-top: 15px;
+    /* padding:30px; */
   }
-  
-  /* Desktop Styles  */
-  
+
+  .menus {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .social {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .socialEle {
+    padding: 0 8px;
+    font-size: 20px;
+    margin-right: 5px;
+  }
+
+  .linkNav {
+    padding: 0 5px;
+    text-decoration: none;
+  }
+}
+
+/* Desktop Styles  */
