@@ -42,13 +42,14 @@
 .project-name {
   font-family: "Yantramanav", sans-serif;
   display: block;
-  font-size: 100px;
+  font-size: 4rem;
   font-weight: 800;
   letter-spacing: 0.2rem;
-  background: url("../../Images/title2.jpg");
+  color: #63bbb4;
+  /* background: url("../../Images/title2.jpg");
   background-size: 100% 100%;
   color: transparent;
-  -webkit-background-clip: text;
+  -webkit-background-clip: text; */
   animation-name: moveInRight;
   animation-duration: 2.5s;
   animation-timing-function: ease-out;
