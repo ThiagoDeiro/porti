@@ -11,6 +11,7 @@
   padding: 0;
   box-sizing: inherit;
 }
+
 .about-main {
   display: flex;
   flex-direction: column;
@@ -19,78 +20,94 @@
   justify-content: center;
   height: 100vh;
 }
-
-.about-textBox {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  width: 100vw;
-
-  text-align: center;
-  color: white;
-}
-
 .about-name {
   font-family: "Yantramanav", sans-serif;
-  display: block;
   font-size: 4rem;
   font-weight: 800;
   letter-spacing: 0.2rem;
+  z-index: 10000;
   color: #63bbb4;
-  animation-name: moveInRight;
-  animation-duration: 2.5s;
-  animation-timing-function: ease-out;
 }
-
 .about-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
   font-family: "Yantramanav", sans-serif;
-  font-size: 1.7em;
-  width: 60rem;
-  display: block;
-  font-weight: 300;
   letter-spacing: 0.03rem;
-  text-align: center;
-  margin-top: 16px;
+  font-size: 1.7em;
+  font-weight: 300;
   color: white;
-  animation-name: moveInLeft;
-  animation-duration: 2.5s;
-  animation-timing-function: ease-out;
-}
-.img-box {
-  width: 200px;
-  height: 200px;
-  margin: 0 auto;
+  width: 60vw;
+
+  z-index: 10000;
 }
 
 .user {
-  display: block;
-  position: absolute;
+  position: relative;
   width: 200px;
   height: 200px;
+  box-sizing: border-box;
+  border: 5px #63bbb4 solid;
   border-radius: 50%;
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
   background-image: url("../../Images/ThiagoProfile.jpg");
-  -webkit-filter: grayscale(100%);
-  filter: grayscale(100%);
+  /* -webkit-filter: grayscale(100%); */
+  box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
+  transform: translatey(0px);
+  animation: float 6s ease-in-out infinite;
 }
 
 .skill-chart {
-  color: white;
   font-size: 5rem;
   width: 100vw;
   padding-top: 1rem;
   display: flex;
   justify-content: center;
   align-items: center;
+  z-index: 100000;
 }
 .icons {
   padding: 1rem;
+  color: #5f6061;
+  z-index: 100000;
+}
+.reac:hover {
+  color: rgb(140, 211, 242);
+}
+.htm:hover {
+  color: rgb(195, 77, 45);
+}
+.cs:hover {
+  color: rgb(55, 76, 218);
+}
+.js:hover {
+  color: rgb(235, 221, 61);
+}
+.node:hover {
+  color: rgb(148, 187, 44);
+}
+.git:hover {
+  color: rgb(216, 62, 32);
 }
 
-@keyframes moveInLeft {
+@keyframes float {
+  0% {
+    box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
+    transform: translatey(0px);
+  }
+  50% {
+    box-shadow: 0 25px 15px 0px rgba(0, 0, 0, 0.2);
+    transform: translatey(-20px);
+  }
+  100% {
+    box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
+    transform: translatey(0px);
+  }
+}
+/* @keyframes moveInLeft {
   0% {
     opacity: 0;
     transform: translateX(-10rem);
@@ -120,30 +137,18 @@
     opacity: 1;
     transform: translate(0);
   }
-}
+} */
 
 @media only screen and (max-width: 400px) {
   .about-main {
     display: flex;
+    height: 100vh;
     align-items: center;
     justify-content: center;
   }
-  .about-box {
-    width: 100%;
-    max-height: 300px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-  }
-  .img-box {
-    display: flex;
-    height: 20px;
-    position: relative;
-    margin-left: 33%;
-  }
+
   .about-text {
-    font-size: 0.8rem;
+    font-size: 0.9rem;
     display: flex;
     flex-direction: column;
     text-align: left;
@@ -151,15 +156,23 @@
     font-weight: 500;
   }
   .user {
-    height: 80px;
-    width: 80px;
+    height: 6.5rem;
+    width: 6.5rem;
   }
   .about-name {
     display: flex;
     font-size: 40px;
     font-weight: 800;
     letter-spacing: 0.1rem;
-    margin-top: 60px;
+  }
+  .skill-chart {
+    font-size: 2rem;
+    width: 100vw;
+    padding-top: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 100000;
   }
 }
 
@@ -172,7 +185,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    /* Red */
   }
   .about-box {
     width: 100%;
