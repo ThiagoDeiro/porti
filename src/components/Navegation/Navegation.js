@@ -12,7 +12,7 @@ import resume from "../resume/ThiagoDeiro-resume.pdf";
 export default class Navegation extends React.Component {
   render() {
     return (
-      <div className="navBar">
+      <header className="navBar">
         <div className="menus">
           <Link className="linkNav" to="/porti" style={{ color: "white" }}>
             Home
@@ -61,7 +61,7 @@ export default class Navegation extends React.Component {
             <FaFileDownload className="socialEle"></FaFileDownload>
           </a>
         </div>
-      </div>
+      </header>
     );
   }
 }

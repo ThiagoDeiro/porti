@@ -21,6 +21,16 @@ export default class Projects extends React.Component {
             "Ruby on rails, CSS, Bootstrap and MovieDB API,Heroku for deployment,GitHub for version control."
         },
         {
+          id: "p4",
+          title: "Mockedin",
+          photo: require("./../../Images/mockdim/project3.png"),
+          description: "Mock up version of LinkedIn, but with a little twist.",
+          demo: "https://mockedin.herokuapp.com/",
+          code: "https://github.com/ThiagoDeiro/project-3",
+          tech:
+            "JavaScript/React , Node/Express.js, MongoDB/Mongoose, S3/AWS,Heroku for deployment, GitHub for version control."
+        },
+        {
           id: "p2",
           title: "Meal-Picker",
           photo: require("./../../Images/mealpicker.png"),
@@ -39,17 +49,6 @@ export default class Projects extends React.Component {
           demo: "https://thiagodeiro.github.io/gaseifx01-project01/",
           code: "https://github.com/ThiagoDeiro/gaseifx01-project01",
           tech: "JavaScript,Jquery, CSS, GitHub for version control."
-        },
-        {
-          id: "p4",
-          title: "Mockedin",
-          photo: require("./../../Images/mockdim/project3.png"),
-          description:
-            "Mock up version of LinkedIn, but with a little twist. It is supposed to be be used by people who want to update their LinkedIn profile, but they need some review from their HR/Career consultant first..",
-          demo: "https://mockedin.herokuapp.com/",
-          code: "https://github.com/ThiagoDeiro/project-3",
-          tech:
-            "JavaScript/React , Node/Express.js, MongoDB/Mongoose, S3/AWS,Heroku for deployment, GitHub for version control."
         }
       ]
     };
