@@ -1,5 +1,5 @@
 import React from "react";
-import "./Navegation.css";
+import "./Navigation.css";
 import {
   FaGithubSquare,
   FaLinkedin,
@@ -9,7 +9,7 @@ import {
 import { Link } from "@reach/router";
 import resume from "../resume/ThiagoDeiro-resume.pdf";
 
-export default class Navegation extends React.Component {
+export default class Navigation extends React.Component {
   render() {
     return (
       <header className="navBar">
