@@ -14,12 +14,10 @@
 
 .headerWrapper {
   font-family: "Yantramanav", sans-serif;
-  /* font-size: 16px; */
   line-height: 1.7;
   color: #777;
   padding: 3rem;
   box-sizing: border-box;
-  /* height: 100vh; */
   width: 100vh;
 }
 
@@ -27,7 +25,6 @@
   display: flex;
   height: 80vh;
   flex-direction: column;
-  /* align-items: center; */
   align-items: center;
   justify-content: center;
   width: 100vw;
@@ -45,7 +42,6 @@
 
   letter-spacing: 0.2rem;
   background: url("../../Images/title2.jpg");
-  /* background-image: url("https://images.unsplash.com/photo-1529641484336-ef35148bab06?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=55a1e60cd6799d5761c7ec40c4954569&auto=format&fit=crop&w=500&q=60"); */
   background-repeat: repeat-x;
   background-size: 100% 100%;
   color: transparent;
@@ -59,7 +55,6 @@
 .header-text {
   font-family: "Yantramanav", sans-serif;
   font-size: 32px;
-  /* font-weight: 400; */
   display: block;
   font-weight: 600;
   letter-spacing: 0.2rem;
@@ -70,7 +65,6 @@
   color: white;
   overflow: hidden;
   white-space: nowrap;
-  /* border-right: 0.1em solid orange; */
   animation: typing 3.5s steps(30, end), blink-caret 0.5s step-end infinite;
   /* animation-name: moveInLeft;
   animation-duration: 2.5s;
@@ -90,7 +84,6 @@
   color: white;
   overflow: hidden;
   white-space: nowrap;
-  /* border-right: 0.1em solid orange; */
   animation: typing 3.5s steps(30, end), blink-caret 0.5s step-end infinite;
 
   /* animation-name: moveInLeft;
@@ -101,7 +94,6 @@
 .header-subSubText {
   font-family: "Yantramanav", sans-serif;
   font-size: 15px;
-  /* font-weight: 400; */
   display: block;
   font-weight: 400;
   letter-spacing: 0.2rem;
