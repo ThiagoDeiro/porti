@@ -47,9 +47,6 @@
   color: transparent;
   -webkit-background-clip: text;
   animation: background 15s linear infinite;
-  /* animation-name: moveInLeft;
-  animation-duration: 3.5s;
-  animation-timing-function: ease-out; */
 }
 
 .header-text {
@@ -66,9 +63,6 @@
   overflow: hidden;
   white-space: nowrap;
   animation: typing 3.5s steps(30, end), blink-caret 0.5s step-end infinite;
-  /* animation-name: moveInLeft;
-  animation-duration: 2.5s;
-  animation-timing-function: ease-out; */
 }
 .header-subText {
   font-family: "Yantramanav", sans-serif;
