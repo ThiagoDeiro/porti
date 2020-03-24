@@ -78,10 +78,6 @@
   overflow: hidden;
   white-space: nowrap;
   animation: typing 3.5s steps(30, end), blink-caret 0.5s step-end infinite;
-
-  /* animation-name: moveInLeft;
-  animation-duration: 2.5s;
-  animation-timing-function: ease-out; */
 }
 
 .header-subSubText {
@@ -150,7 +146,6 @@
   }
 }
 
-/* other screen */
 @media only screen and (max-width: 400px) {
   .headerWrapper {
     display: flex;
@@ -172,7 +167,6 @@
   }
 }
 
-/* Tablet Styles */
 @media only screen and (min-width: 401px) and (max-width: 960px) {
   .header-name {
     font-size: 65px;
