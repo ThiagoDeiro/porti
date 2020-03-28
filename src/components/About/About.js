@@ -22,10 +22,6 @@ export default class About extends React.Component {
           </p>
           <br />
           <p>
-            I came upon coding with a head full of inspiration, having seen my
-            previous workplaces transformed by web-based technologies.
-          </p>
-          <p>
             Recently graduated from a Software Engineering course, I am looking
             for a company where I can be challenged whilst learning and growing.
           </p>
